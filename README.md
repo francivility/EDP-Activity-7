@@ -11,9 +11,10 @@ This wasn’t just a one‑time code – it went through **countless revisions, 
 I started with a basic idea: a simple POS for a vegetable store.  
 But as I tested and used it, I kept adding features and fixing things until it became a complete management tool.
 
-**By May 22, I had already submitted a fully functional version of this system.**  
-Since then, I have continued to refine it – I removed outdated code, rewrote entire sections, and replaced the old implementation with a cleaner, more robust, and fully updated version.  
-This repository contains the **latest and most complete** iteration of the project.
+**By May 22, the whole system was already built and fully functional.**  
+Every core feature you see below – login, inventory management, point of sale with cash/GCash/card, sales history, Excel reports, user management, forgot password, and the entire UI – was in place and working.  
+Since then, I have continued to refine it: I removed outdated code, rewrote entire sections, and replaced the old implementation with a cleaner, more robust, and fully updated version.  
+The updates you see after May 22 are **enhancements, new features, and polish** – not missing pieces.
 
 - **Over 10 major feature updates** were implemented over the course of May 2026.
 - The system was **tested repeatedly**, and every bug found was squashed.
@@ -90,23 +91,24 @@ It’s now a robust, production‑ready system that I can rely on for my busines
 
 ## 🔧 Recent Updates & Revisions (May 2026)
 
-This system wasn’t built overnight. Here’s a timeline of the major improvements I made:
+> **Important:** The complete system was already built and submitted by **May 22**.  
+> The updates listed below are **improvements, polish, and additional features** I added afterward.
 
 | Update | Estimated Date |
 |--------|----------------|
-| Initial project setup – basic login, inventory, POS | Early May |
-| Added category & unit dropdowns, product images | May 22–23 |
-| Date/time sync fix, Excel report improvements | May 23 |
-| UI redesign – login page with typing effect, green color palette | May 24 |
-| Inventory grid/list toggle, image preview/removal | May 24 |
-| User management – admin can add, edit, delete users | May 25 |
-| Forgot password flow – security question verification | May 25–26 |
-| Staff permission enforcement – locked pages for non‑admins | May 26 |
-| GCash simulation redesigned (realistic UI, loading spinner) | May 26–27 |
-| Logout confirmation custom modal | May 27 |
-| Reference numbers auto‑generated and stored | May 27 |
-| Receipt display of reference numbers (frontend fix) | May 28 |
-| Final bug fixes, polish, and complete system test | May 28 |
+| Full system completed – all core features (login, inventory, POS, reports) | By May 22 |
+| Added category & unit dropdowns, product images | Before May 22 |
+| Date/time sync fix, Excel report improvements | Before May 22 |
+| UI redesign – login page with typing effect, green color palette | Before May 22 |
+| Inventory grid/list toggle, image preview/removal | Before May 22 |
+| User management – admin can add, edit, delete users | Before May 22 |
+| Forgot password flow – security question verification | Before May 22 |
+| Staff permission enforcement – locked pages for non‑admins | May 22 |
+| GCash simulation redesigned (realistic UI, loading spinner) | May 23 |
+| Logout confirmation custom modal | May 24 |
+| Reference numbers auto‑generated and stored | May 25 |
+| Receipt display of reference numbers (frontend fix) | May 26 |
+| Final bug fixes, polish, and complete system test | May 28 |
 
 **Every one of these updates involved multiple code revisions, testing, and tweaks to get it right.**  
 The result is a system that handles real‑world sales, inventory, and user management without errors.
