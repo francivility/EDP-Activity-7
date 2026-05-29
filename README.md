@@ -121,19 +121,25 @@ The result is a system that handles real‑world sales, inventory, and user mana
 |------------|--------------------------------------|
 | Frontend   | React, Tailwind CSS, Vite            |
 | Backend    | Python, Flask, SQLAlchemy            |
-| Database   | MySQL (XAMPP / MySQL Workbench)      |
+| Database   | MySQL (MySQL Workbench)              |
 | Auth       | JWT (JSON Web Tokens)                |
 | Payments   | Built‑in simulation (no external API)|
 | Reports    | openpyxl (Excel export)              |
 
 ---
 
-## 📁 How to Run (for my future reference)
+## 📁 How to Run (Backend & Frontend)
 
-1. **Start MySQL** via XAMPP.
-2. **Backend**:
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   python db_init.py
-   python app.py
+### Prerequisites
+- **XAMPP** with MySQL running
+- **Python 3.10+** installed
+- **Node.js & npm** installed
+
+### 1. Backend Setup (Flask)
+Open a terminal in the `backend` folder and run:
+
+```bash
+cd backend
+pip install -r requirements.txt
+python db_init.py
+python app.py
